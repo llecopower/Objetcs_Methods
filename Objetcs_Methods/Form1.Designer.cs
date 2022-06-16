@@ -51,6 +51,7 @@
             this.buttonGet.TabIndex = 1;
             this.buttonGet.Text = "Get Data";
             this.buttonGet.UseVisualStyleBackColor = true;
+            this.buttonGet.Click += new System.EventHandler(this.buttonGet_Click);
             // 
             // labelInfo
             // 
